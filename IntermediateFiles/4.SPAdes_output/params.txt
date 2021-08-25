@@ -1,0 +1,33 @@
+Command line: /ngs-data/share_tools/tools/SPAdes-3.15.2-Linux/bin/rnaviralspades.py	-t	2	-m	2	-1	/home/palatini/VirologySumSchool/TEST/Unmapped/Unmapped_R1.fastq	-2	/home/palatini/VirologySumSchool/TEST/Unmapped/Unmapped_R2.fastq	-s	/home/palatini/VirologySumSchool/TEST/Unmapped/Singletons.fastq	-o	/home/palatini/VirologySumSchool/TEST/SPAdes_output	
+
+System information:
+  SPAdes version: 3.15.2
+  Python version: 3.9.4
+  OS: Linux-4.4.0-185-generic-x86_64-with-glibc2.23
+
+Output dir: /home/palatini/VirologySumSchool/TEST/SPAdes_output
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  RNA virus assembly mode
+  Metagenomic mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/home/palatini/VirologySumSchool/TEST/Unmapped/Unmapped_R1.fastq']
+      right reads: ['/home/palatini/VirologySumSchool/TEST/Unmapped/Unmapped_R2.fastq']
+      interlaced reads: not specified
+      single reads: ['/home/palatini/VirologySumSchool/TEST/Unmapped/Singletons.fastq']
+      merged reads: not specified
+Assembly parameters:
+  k: auto
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /home/palatini/VirologySumSchool/TEST/SPAdes_output/tmp
+  Threads: 2
+  Memory limit (in Gb): 2
+
